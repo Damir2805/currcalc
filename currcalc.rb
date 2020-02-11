@@ -20,5 +20,6 @@ currant_rate = doc.root.elements.to_a[8]
 
 hkd = currant_rate.elements['Name']
 rate = currant_rate.elements['Value']
+nominal = currant_rate.elements['Nominal']
 
-puts "Курс ЦБ России 10 #{hkd} равен #{rate} рублей"
+puts "Курс ЦБ России #{nominal} #{hkd} равен #{rate} рублей"
